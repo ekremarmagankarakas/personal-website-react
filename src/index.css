@@ -427,6 +427,7 @@ span {
   align-items: center;
   flex-direction: column;
   min-height: auto;
+  width: 100vw;
 }
 
 .education .education-row {
@@ -513,7 +514,7 @@ span {
 }
 
 .contact {
-  min-height: 90vh;
+  width: 100vw;
   padding-bottom: 7rem;
   background: var(--second-bg-color);
 }
@@ -636,5 +637,25 @@ span {
     font-weight: bold;
     color: #333;
     margin-top: 10px;
+  }
+
+  .home {
+    text-align: center;
+  }
+
+  .home-text {
+    padding-top: 50px;
+    padding-right: 0;
+  }
+
+  .home-content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .hero-image {
+    width: 50%;
+    height: 50%;
+    position: relative;
   }
 }
