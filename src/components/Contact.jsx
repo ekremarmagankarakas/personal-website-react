@@ -4,63 +4,35 @@ function Contact() {
       <h2 className="heading">
         Contact <span>Me!</span>
       </h2>
-      <form
-        action="mailto:ekremarmagankarakas@gmail.com"
-        method="post"
-        encType="text/plain"
-      >
-        <div className="input-box">
-          <div className="input-field">
-            <input type="text" name="name" placeholder="Full Name" required />
-            <span className="focus"></span>
+      <div className="contact-main">
+        <div className="contact-grid">
+          <div className="contact-social-icons">
+            <a
+              href="https://github.com/ekremarmagankarakas"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            <span class="fa fa-github"></span>
+            </a>
+            <a
+              href="https://linkedin.com/in/ekrem-armagan-karakas"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            <span class="fa fa-linkedin"></span>
+            </a>
           </div>
-          <div className="input-field">
-            <input
-              type="text"
-              name="email"
-              placeholder="Email Address"
-              required
-            />
-            <span className="focus"></span>
+          <div className="contact-phone">
+            <h1>Phone:</h1> <p>(857) 971-0526</p>
           </div>
-        </div>
-        <div className="input-box">
-          <div className="input-field">
-            <input
-              type="number"
-              name="mobile"
-              placeholder="Mobile Number"
-              required
-            />
-            <span className="focus"></span>
+          <div className="contact-email">
+            <h1>Email:</h1> <p>ekremarmagankarakas@gmail.com</p>
           </div>
-          <div className="input-field">
-            <input
-              type="text"
-              name="subject"
-              placeholder="Email Subject"
-              required
-            />
-            <span className="focus"></span>
+          <div className="contact-address">
+            <h1>Location</h1> <p>Boston, MA</p>
           </div>
         </div>
-        <div className="textarea-field">
-          <textarea
-            name="message"
-            id="message"
-            cols="30"
-            rows="10"
-            placeholder="Your Message"
-            required
-          ></textarea>
-          <span className="focus"></span>
-        </div>
-        <div className="btn-box btns">
-          <button type="submit" className="btn">
-            Submit
-          </button>
-        </div>
-      </form>
+      </div>
     </section>
   );
 }
