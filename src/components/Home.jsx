@@ -86,26 +86,19 @@ function Home() {
               community service.
             </p>
             <div className="social-icons">
-              <a href="cv.html" target="_blank" rel="noopener noreferrer">
-                <img src="img/resumeIcon.png" alt="resume" title="resume" />
-              </a>
               <a
                 href="https://github.com/ekremarmagankarakas"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="img/githubIcon.png" alt="github" title="github" />
+              <span class="fa fa-github"></span>
               </a>
               <a
                 href="https://linkedin.com/in/ekrem-armagan-karakas"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
-                  src="img/linkedlnIcon.png"
-                  alt="linkedin"
-                  title="linkedin"
-                />
+              <span class="fa fa-linkedin"></span>
               </a>
             </div>
           </div>
