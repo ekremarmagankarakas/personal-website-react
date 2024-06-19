@@ -549,19 +549,22 @@ span {
   width: 100vw;
   min-height: auto;
   background: var(--second-bg-color);
-  padding: 4rem 9% 4rem;
+  padding: 8rem 9% 8rem;
 }
 
 .contact h1 {
-  font-weight: 600;
-  font-size: 1.2rem;
+  font-weight: 400;
+  font-size: 1.6rem;
   margin-top: 10px;
 }
 
 .contact h3 {
   font-weight: 700;
-  font-size: 1.7rem;
-  color: var(--main-color);
+  font-size: 2.5rem;
+}
+
+.contact p {
+  font-size: 1.6rem;
 }
 
 .contact-main {
@@ -622,9 +625,14 @@ span {
   flex-wrap: wrap;
   padding: 1.5rem 9%;
   background: var(--bg-color);
+  font-size: 1.6rem;
 }
 
 @media screen and (max-width: 1000px) {
+  .heading {
+    font-size: 4rem;
+  }
+
   .projects-container {
     display: flex;
     flex-wrap: wrap;
@@ -708,5 +716,23 @@ span {
 
   .contact-grid {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .contact p, .contact h1 {
+    font-size: 1.2rem;
+  }
+
+  .footer {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-social-icons {
+    margin-bottom: 0;
   }
 }
