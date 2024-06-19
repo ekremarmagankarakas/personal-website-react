@@ -16,14 +16,9 @@ function Projects() {
     }, observerOptions);
 
     const projects = document.querySelectorAll(".project");
-    const projectsHeaders = document.querySelectorAll(".projectsHeader");
 
     projects.forEach((project) => {
       observer.observe(project);
-    });
-
-    projectsHeaders.forEach((projectsHeader) => {
-      observer.observe(projectsHeader);
     });
 
     return () => {
