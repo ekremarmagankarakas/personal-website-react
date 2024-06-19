@@ -354,6 +354,10 @@ span {
   transition: all 1s ease-in-out;
 }
 
+.project.even:hover {
+  transform: translateY(-10px);
+}
+
 .project img {
   width: 450px;
   height: 400px;
