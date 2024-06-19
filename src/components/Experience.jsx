@@ -1,3 +1,5 @@
+import React, { useEffect } from "react";
+
 const experienceData = [
   {
     year: "July – Dec. 2024",
@@ -44,6 +46,29 @@ const EducationContent = ({ year, title, description }) => (
 );
 
 export default function Experience() {
+  useEffect(() => {
+    const observerOptions = {
+      threshold: 0.05,
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("animated");
+        }
+      });
+    }, observerOptions);
+
+    const projects = document.querySelectorAll(".education-content");
+
+    projects.forEach((project) => {
+      observer.observe(project);
+    });
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
   return (
     <section className="education" id="education">
       <h2 className="heading">

@@ -455,6 +455,14 @@ span {
 .education-box .education-content {
   position: relative;
   padding-left: 2rem;
+  opacity: 0;
+  transform: translateX(50px);
+}
+
+.education-content.animated {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 1s ease-in-out
 }
 
 .education-box .education-content::before {
