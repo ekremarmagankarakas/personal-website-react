@@ -615,6 +615,15 @@ span {
   transition: 1.5s ease-out;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1.5rem 9%;
+  background: var(--bg-color);
+}
+
 @media screen and (max-width: 1000px) {
   .projects-container {
     display: flex;

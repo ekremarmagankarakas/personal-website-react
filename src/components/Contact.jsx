@@ -15,14 +15,14 @@ function Contact() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              <span class="fa fa-github"></span>
+              <span className="fa fa-github"></span>
               </a>
               <a
                 href="https://linkedin.com/in/ekrem-armagan-karakas"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              <span class="fa fa-linkedin"></span>
+              <span className="fa fa-linkedin"></span>
               </a>
             </div>
           </div>
