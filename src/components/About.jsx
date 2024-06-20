@@ -9,15 +9,34 @@ export default function About() {
             </div>
 
             <div className="about-content">
-                <h3>Frontend Developer!</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium dolorum recusandae saepe magni
-                    eveniet provident voluptate cupiditate sapiente vero numquam soluta non amet voluptatem ipsam eius quam
-                    molestias pariatur, eaque a! Minus repudiandae sapiente asperiores aliquid magnam iste vel quis officiis
-                    odio laudantium numquam minima, dolorem officia esse, quidem ipsa.
+                <h3>Computer Science</h3>
+                <h2>Student at Northeastern University</h2>
+                <p>
+                    with a passion for applying technology to solve real-world
+                    problems. My academic and project work has focused on areas like
+                    cybersecurity, data science, and software development, and I've
+                    gained hands-on experience through internships in cloud technology
+                    and mobile software development. I'm particularly interested in
+                    leveraging my skills in Python, Java, and Flutter to create
+                    impactful software solutions. Outside of tech, I enjoy engaging in
+                    robotics projects, sports, and have a strong commitment to
+                    community service.
                 </p>
-
-                <div className="btn-box btns">
-                    <a href="#" className="btn">Read More</a>
+                <div className="social-icons">
+                    <a
+                    href="https://github.com/ekremarmagankarakas"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                    <span className="fa fa-github"></span>
+                    </a>
+                    <a
+                    href="https://linkedin.com/in/ekrem-armagan-karakas"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                    <span className="fa fa-linkedin"></span>
+                    </a>
                 </div>
             </div>
         </section>

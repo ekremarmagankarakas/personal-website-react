@@ -4,7 +4,7 @@ function Header() {
   return (
     <header className="header">
       <a href="#" className="logo">
-        Ekrem Armagan Karakas
+        <img src="/img/helloIcon.png" alt="Ekrem Armagan Karakas" />
       </a>
       <div className="bx bx-menu" id="menu-icon"></div>
       <nav className="navbar">

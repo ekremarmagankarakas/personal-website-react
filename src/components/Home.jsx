@@ -68,42 +68,13 @@ function Home() {
     <section className="home show-animate" id="home">
       <div className="home-bubble">
         <div className="home-content">
-          <div className="home-text">
-            <h3>👋 Hi there, I'm Ekrem Armagan Karakas and I am a</h3>
-            <div className="field-of-study">
-              <h3>Computer Science</h3>
-            </div>
-            <h2>Student at Northeastern University</h2>
-            <p>
-              with a passion for applying technology to solve real-world
-              problems. My academic and project work has focused on areas like
-              cybersecurity, data science, and software development, and I've
-              gained hands-on experience through internships in cloud technology
-              and mobile software development. I'm particularly interested in
-              leveraging my skills in Python, Java, and Flutter to create
-              impactful software solutions. Outside of tech, I enjoy engaging in
-              robotics projects, sports, and have a strong commitment to
-              community service.
-            </p>
-            <div className="social-icons">
-              <a
-                href="https://github.com/ekremarmagankarakas"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-              <span className="fa fa-github"></span>
-              </a>
-              <a
-                href="https://linkedin.com/in/ekrem-armagan-karakas"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-              <span className="fa fa-linkedin"></span>
-              </a>
-            </div>
-          </div>
+          <h1>Ekrem Armagan Karakas</h1>
         </div>
       </div>
+      <div class="wave-container">
+        <div class="top"></div>
+        <div class="bottom"></div>
+    </div>
     </section>
   );
 }
