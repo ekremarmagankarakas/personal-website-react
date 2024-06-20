@@ -353,42 +353,42 @@ span {
 
 .item1 {
   animation-delay: calc(30s / 8 * (8 - 1) * -1);
-  background: url('img/HTMLCSSJS.jpg') no-repeat center center/cover;
+  background: url('/img/HTMLCSSJS.jpg') no-repeat center center/cover;
 }
 
 .item2 {
   animation-delay: calc(30s / 8 * (8 - 2) * -1);
-  background: url('img/NODEJS.svg') no-repeat center center/cover;
+  background: url('/img/NODEJS.svg') no-repeat center center/cover;
 }
 
 .item3 {
   animation-delay: calc(30s / 8 * (8 - 3) * -1);
-  background: url('img/PHP.png') no-repeat center center/cover;
+  background: url('/img/PHP.png') no-repeat center center/cover;
 }
 
 .item4 {
   animation-delay: calc(30s / 8 * (8 - 4) * -1);
-  background: url('img/REACT.png') no-repeat center center/cover;
+  background: url('/img/REACT.png') no-repeat center center/cover;
 }
 
 .item5 {
   animation-delay: calc(30s / 8 * (8 - 5) * -1);
-  background: url('img/MYSQL.png') no-repeat center center/cover;
+  background: url('/img/MYSQL.png') no-repeat center center/cover;
 }
 
 .item6 {
   animation-delay: calc(30s / 8 * (8 - 6) * -1);
-  background: url('img/MONGODB.png') no-repeat center center/cover;
+  background: url('/img/MONGODB.png') no-repeat center center/cover;
 }
 
 .item7 {
   animation-delay: calc(30s / 8 * (8 - 7) * -1);
-  background: url('img/EXPRESSJS.png') no-repeat center center/cover;
+  background: url('/img/EXPRESSJS.png') no-repeat center center/cover;
 }
 
 .item8 {
   animation-delay: calc(30s / 8 * (8 - 8) * -1);
-  background: url('img/TYPESCRIPT.png') no-repeat center center/cover;
+  background: url('/img/TYPESCRIPT.png') no-repeat center center/cover;
 }
 
 .projects {
