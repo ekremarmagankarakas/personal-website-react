@@ -8,10 +8,8 @@ function Header() {
       </a>
       <div className="bx bx-menu" id="menu-icon"></div>
       <nav className="navbar">
-        <a href="#home" className="active">
-          Home
-        </a>
-        <a href="#about">AboutMe</a>
+        <a href="#home" className="active">Home</a>
+        <a href="#about">About</a>
         <a href="#projects">Projects</a>
         <a href="#education">Experiences</a>
         <a href="#contact">Contact</a>
