@@ -306,6 +306,91 @@ span {
   background: var(--second-bg-color);
 }
 
+.wrapper {
+  background: white;
+  width: 90%;
+  max-width: 1536px;
+  margin-inline: auto;
+  position: relative;
+  height: 140px;
+  padding: 20px 0;
+  margin-top: 5rem;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+@keyframes scrollLeft {
+  to {
+    left: -200px;
+  }
+}
+
+.item {
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  border-radius: 6px;
+  position: absolute;
+  left: max(calc(200px * 8), 100%);
+  animation-name: scrollLeft;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.item1 {
+  animation-delay: calc(30s / 8 * (8 - 1) * -1);
+  background: url('img/HTMLCSSJS.jpg') no-repeat center center/cover;
+}
+
+.item2 {
+  animation-delay: calc(30s / 8 * (8 - 2) * -1);
+  background: url('img/NODEJS.svg') no-repeat center center/cover;
+}
+
+.item3 {
+  animation-delay: calc(30s / 8 * (8 - 3) * -1);
+  background: url('img/PHP.png') no-repeat center center/cover;
+}
+
+.item4 {
+  animation-delay: calc(30s / 8 * (8 - 4) * -1);
+  background: url('img/REACT.png') no-repeat center center/cover;
+}
+
+.item5 {
+  animation-delay: calc(30s / 8 * (8 - 5) * -1);
+  background: url('img/MYSQL.png') no-repeat center center/cover;
+}
+
+.item6 {
+  animation-delay: calc(30s / 8 * (8 - 6) * -1);
+  background: url('img/MONGODB.png') no-repeat center center/cover;
+}
+
+.item7 {
+  animation-delay: calc(30s / 8 * (8 - 7) * -1);
+  background: url('img/EXPRESSJS.png') no-repeat center center/cover;
+}
+
+.item8 {
+  animation-delay: calc(30s / 8 * (8 - 8) * -1);
+  background: url('img/TYPESCRIPT.png') no-repeat center center/cover;
+}
+
 .projects {
   width: 100vw;
   background-color: var(--second-bg-color);
