@@ -808,4 +808,12 @@ span {
   .contact-social-icons {
     margin-bottom: 0;
   }
+
+  .bubble {
+    display: none;
+  }
+
+  .home-content {
+    padding-top: 0px;
+  }
 }
