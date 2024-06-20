@@ -102,9 +102,6 @@ function Home() {
               </a>
             </div>
           </div>
-          <div className="hero-image">
-            <img src="img/ProfilePicturePNG.png" alt="Ekrem Armagan Karakas" />
-          </div>
         </div>
       </div>
     </section>
