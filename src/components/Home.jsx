@@ -72,7 +72,6 @@ function Home() {
         </div>
       </div>
       <div class="wave-container">
-        <div class="top"></div>
         <div class="bottom"></div>
     </div>
     </section>

@@ -93,13 +93,6 @@ section {
   height: 100vh;
   z-index: -1;
 }
-.top {
-  background-color: var(--bg-color);
-  height: 50%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-}
 .bottom {
   background-color: var(--main-color);
   height: 50%;
@@ -815,6 +808,10 @@ span {
     margin-top: 10px;
   }
 
+  .project-description {
+    text-align: start;
+  }
+
   .home-text {
     padding-top: 50px;
     padding-right: 0;
@@ -853,10 +850,6 @@ span {
 
   .contact-social-icons {
     margin-bottom: 0;
-  }
-
-  .bubble {
-    display: none;
   }
 
   .home-content {
