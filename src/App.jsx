@@ -1,6 +1,7 @@
 import Header from './components/Header.jsx'
 import Home from './components/Home.jsx'
 import About from './components/About.jsx'
+import Websites from './components/Websites.jsx'
 import Skills from './components/Skills.jsx'
 import Projects from './components/Projects.jsx'
 import Experience from './components/Experience.jsx'
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Home />
       <About />
+      <Websites />
       <Skills />
       <Projects />
       <Experience />
