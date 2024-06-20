@@ -59,8 +59,17 @@ function Home() {
 
     const bubbleInterval = setInterval(createBubble, 1000);
 
+    const handleScroll = () => {
+      const bottom = document.getElementById("bottom");
+      const scrollPosition = window.scrollY;
+      bottom.style.transform = `translateY(${Math.min(scrollPosition * 0.5, 260)}px)`;
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
     return () => {
       clearInterval(bubbleInterval);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -71,8 +80,8 @@ function Home() {
           <h1>Ekrem Armagan Karakas</h1>
         </div>
       </div>
-      <div class="wave-container">
-        <div class="bottom"></div>
+      <div className="wave-container">
+        <div className="bottom" id="bottom"></div>
     </div>
     </section>
   );
