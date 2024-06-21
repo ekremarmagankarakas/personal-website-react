@@ -1,8 +1,8 @@
 import React from 'react';
 
-function WebsiteCard({ title, subtitle, description, image, backgroundColor }) {
+function WebsiteCard({ title, subtitle, description, image, backgroundColor, onClick }) {
   return (
-    <div className="website-card">
+    <div className="website-card" onClick={onClick}>
       <div className="image-container" style={{ backgroundColor }}>
         <img src={image} alt="Website" className="website-image" />
       </div>

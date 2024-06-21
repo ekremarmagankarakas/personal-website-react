@@ -12,6 +12,7 @@ function Websites() {
       description: "Expressing my own in a creative way",
       image: WebsiteImage1,
       backgroundColor: "#ff6f61",
+      url: "https://eakarakas.com",
     },
     {
       title: "CombinedAI",
@@ -19,6 +20,7 @@ function Websites() {
       description: "Revolutionizing using Large Language Models",
       image: WebsiteImage2,
       backgroundColor: "#3535",
+      url: "https://combinedai.onrender.com",
     },
     {
       title: "KarakaslarGroup Management",
@@ -26,6 +28,7 @@ function Websites() {
       description: "Improving management for construction companies",
       image: WebsiteImage3,
       backgroundColor: "#88b04b",
+      url: "https://karakaslargroupyonetim.000webhostapp.com",
     },
   ];
 
@@ -67,6 +70,7 @@ function Websites() {
             description={website.description}
             image={website.image}
             backgroundColor={website.backgroundColor}
+            onClick={() => window.open(website.url, '_blank')}
             />
         ))}
       </div>
