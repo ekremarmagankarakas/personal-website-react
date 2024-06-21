@@ -59,8 +59,25 @@ function Home() {
 
     const bubbleInterval = setInterval(createBubble, 1000);
 
+    const wave1 = document.getElementById('wave1');
+    const wave2 = document.getElementById('wave2');
+    const wave3 = document.getElementById('wave3');
+    const wave4 = document.getElementById('wave4');
+
+    const handleScroll = () => {
+      let value = window.scrollY;
+
+      wave1.style.backgroundPositionX = 400 + value * 2 + "px";
+      wave2.style.backgroundPositionX = 300 + value * -2 + "px";
+      wave3.style.backgroundPositionX = 200 + value * 1 + "px";
+      wave4.style.backgroundPositionX = 100 + value * -1 + "px";
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
     return () => {
       clearInterval(bubbleInterval);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -75,6 +92,7 @@ function Home() {
         <div className="wave" id="wave1"></div>
         <div className="wave" id="wave2"></div>
         <div className="wave" id="wave3"></div>
+        <div className="wave" id="wave4"></div>
     </div>
     </section>
   );
