@@ -85,7 +85,9 @@ function Home() {
     <section className="home show-animate" id="home">
       <div className="home-bubble">
         <div className="home-content">
-          <h1>Ekrem Armagan Karakas</h1>
+          <div className="home-text">
+            <h1>Ekrem Armagan Karakas</h1>
+          </div>
         </div>
       </div>
       <div className="wave-container">
