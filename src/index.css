@@ -94,7 +94,7 @@ section {
   z-index: -1;
 }
 .bottom {
-  background-color: var(--main-color);
+  background-color: rgb(137, 205, 228);
   height: 30%;
   width: 100%;
   position: absolute;
@@ -233,13 +233,13 @@ section {
   pointer-events: none;
   border-radius: 50%;
   box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5);
-  background-color: var(--main-color);
+  background-color: lightblue;
   /* Light blue background, adjust as desired */
   color: white;
   font-size: 14px;
   /* Adjust based on bubble size */
   animation: float 4s ease-in-out infinite;
-  z-index: 100;
+  z-index: 2;
 }
 
 @keyframes float {
@@ -249,13 +249,13 @@ section {
   }
 
   50% {
-    transform: translateY(calc(30vh - 100%));
+    transform: translateY(calc(50vh - 100%));
     /* Move to just before halfway down the hero section */
     opacity: 1;
   }
 
   100% {
-    transform: translateY(calc(40vh - 100%));
+    transform: translateY(calc(70vh - 100%));
     /* Stay here and start fading */
     opacity: 0;
   }
