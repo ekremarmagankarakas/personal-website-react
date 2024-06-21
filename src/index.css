@@ -94,15 +94,45 @@ section {
   height: 100vh;
   z-index: -1;
 }
-.bottom {
-  background-color: rgb(137, 205, 228);
-  height: 30%;
-  width: 100%;
+
+.wave {
   position: absolute;
+  left: 0;
   bottom: 0;
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23F5F5F5" fill-opacity="1" d="M0,160L48,144C96,128,192,96,288,106.7C384,117,480,171,576,192C672,213,768,203,864,170.7C960,139,1056,85,1152,74.7C1248,64,1344,96,1392,112L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>');
-  background-size: cover;
-  transition: transform 0.3s ease-out;
+  background: url('/img/wave.png');
+  background-size: 1000px 100px;
+  height: 100px;
+  width: 100%;
+  animation: animateWave 4s ease-in-out infinite;
+}
+#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  background-position-x: 400px;
+}
+#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  background-position-x: 300px;
+}
+#wave3 {
+  z-index: 998;
+  opacity: 0.2;
+  background-position-x: 200px;
+}
+#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  background-position-x: 100px;
+}
+
+@keyframes animateWave {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
 }
 
 .home-content {

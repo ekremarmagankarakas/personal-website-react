@@ -59,17 +59,8 @@ function Home() {
 
     const bubbleInterval = setInterval(createBubble, 1000);
 
-    const handleScroll = () => {
-      const bottom = document.getElementById("bottom");
-      const scrollPosition = window.scrollY;
-      bottom.style.transform = `translateY(${Math.min(scrollPosition * 0.5, 260)}px)`;
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
     return () => {
       clearInterval(bubbleInterval);
-      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -81,7 +72,9 @@ function Home() {
         </div>
       </div>
       <div className="wave-container">
-        <div className="bottom" id="bottom"></div>
+        <div className="wave" id="wave1"></div>
+        <div className="wave" id="wave2"></div>
+        <div className="wave" id="wave3"></div>
     </div>
     </section>
   );
