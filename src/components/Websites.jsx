@@ -54,7 +54,7 @@ function Websites() {
   }, []);
 
   return (
-    <section className="websites">
+    <section className="websites" id="websites">
       <h2 className="heading">
         My <span>Websites</span>
       </h2>
