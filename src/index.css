@@ -22,7 +22,7 @@
 }
 
 html {
-  font-size: 72.5%;
+  font-size: 75%;
   overflow-x: hidden;
 }
 
@@ -220,7 +220,7 @@ section {
   background-color: rgb(255, 255, 255);
   /* Light blue background, adjust as desired */
   color: var(--home-color);
-  font-size: 14px;
+  font-size: 1.5rem;
   /* Adjust based on bubble size */
   animation: float 4s ease-in-out infinite;
   z-index: 2;

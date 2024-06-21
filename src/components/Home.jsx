@@ -40,7 +40,7 @@ function Home() {
       createElement.textContent = skill;
       createElement.classList.add("bubble");
 
-      const size = Math.max(60, skill.length * 10);
+      const size = Math.max(60, skill.length * 16);
       createElement.style.width = `${size}px`;
       createElement.style.height = `${size}px`;
       createElement.style.lineHeight = `${size}px`;
