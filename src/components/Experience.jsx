@@ -15,7 +15,7 @@ const experienceData = [
   },
   {
     year: "June 2023 - Aug 2023",
-    position: "Inter Web Developer - KarakaslarGroup",
+    position: "Intern Web Developer - KarakaslarGroup",
     description:
       "Enhanced Karakaslar Group's project management through a custom website created utilizing object-oriented PHP, HTML, CSS, and JavaScript. Streamined tasks across roles (manager, employee, accountant). Improved efficiency and accountability with role-based access, categorized entries, and robust search capabilities.",
   },
