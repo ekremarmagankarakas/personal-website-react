@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import WebsiteCard from "./WebsiteCard";
-import WebsiteImage1 from "/img/KarakaslarPC.png";
+import WebsiteImage1 from "/img/PortfolioPC.png";
 import WebsiteImage2 from "/img/CombinedAIPC.png";
 import WebsiteImage3 from "/img/KarakaslarPC.png";
 
