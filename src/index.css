@@ -56,7 +56,7 @@ body {
 }
 
 .navbar a {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   color: whitesmoke;
   font-weight: 500;
   margin-left: 3.5rem;
@@ -204,7 +204,7 @@ section {
   justify-content: center;
   align-items: center;
   color: #fff;
-  font-size: 20px !important;
+  font-size: 1.6rem !important;
   transition: 1.5s ease-out;
 }
 
@@ -333,7 +333,11 @@ span {
 .about-content h3 {
   position: relative;
   display: inline-block;
-  font-size: 2.6rem;
+  font-size: 2.5rem;
+}
+
+.about-content h2 {
+  font-size: 2rem;
 }
 
 .about-content p {
@@ -489,39 +493,24 @@ span {
 }
 
 .website-title {
-  font-size: 24px;
+  font-size: 2rem;
   margin: 10px 0;
 }
 
 .website-subtitle {
-  font-size: 18px;
+  font-size: 1.6rem;
   color: #9a9a9a; /* Light grey color */
   margin: 10px 0;
 }
 
 .website-description {
-  font-size: 16px;
+  font-size: 1.5rem;
   color: #b0b0b0; /* Lighter grey color */
 }
 
 .projects {
   width: 100vw;
   background-color: var(--second-bg-color);
-}
-
-.projectsHeader {
-  position: relative;
-  font-size: 5rem;
-  margin-bottom: 3rem;
-  text-align: center;
-  cursor: pointer;
-}
-
-.header {
-  text-align: center;
-  margin-bottom: 50px;
-  font-size: 24px;
-  font-weight: bold;
 }
 
 .projects-container {
@@ -577,13 +566,13 @@ span {
 
 .project-title {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 2rem;
   margin-bottom: 5px;
 }
 
 .project-description {
   margin-top: 10px;
-  font-size: 18px;
+  font-size: 1.6rem;
   text-align: justify;
 }
 
@@ -606,7 +595,7 @@ span {
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
-  font-size: 20px;
+  font-size: 1.6rem;
 }
 
 .modal-body {
@@ -805,7 +794,7 @@ span {
   justify-content: center;
   align-items: center;
   color: #fff;
-  font-size: 20px !important;
+  font-size: 1.6rem !important;
   transition: 1.5s ease-out;
 }
 
@@ -848,7 +837,6 @@ span {
   }
 
   .project-title {
-    font-size: 20px;
     font-weight: bold;
     color: #333;
     margin-top: 10px;
@@ -872,16 +860,8 @@ span {
     display: none;
   }
 
-  .logo {
-    font-size: 1.7rem;
-  }
-
   .contact-grid {
     grid-template-columns: 1fr 1fr;
-  }
-
-  .contact p, .contact h1 {
-    font-size: 1.2rem;
   }
 
   .footer {

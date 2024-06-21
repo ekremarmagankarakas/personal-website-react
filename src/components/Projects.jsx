@@ -29,8 +29,8 @@ function Projects() {
   return (
     <section className="projects" id="projects">
       <div className="projects-intro">
-        <h2 className="projectsHeader">
-          My <span className="highlight">Projects</span>
+        <h2 className="heading">
+          My <span>Projects</span>
         </h2>
       </div>
       <div className="projects-container">
