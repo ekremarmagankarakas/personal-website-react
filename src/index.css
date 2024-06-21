@@ -881,4 +881,8 @@ span {
   .home-content {
     padding-top: 0px;
   }
+
+  .bubble {
+    display: none;
+  }
 }
