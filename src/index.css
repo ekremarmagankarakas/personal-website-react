@@ -84,6 +84,8 @@ section {
   display: flex;
   align-items: center;
   padding: 0 9%;
+  background-color: rgb(92, 204, 238);
+  min-height: 100svh;
 }
 
 .wave-container {
@@ -92,7 +94,6 @@ section {
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: -1;
 }
 
 .wave {
@@ -100,8 +101,8 @@ section {
   left: 0;
   bottom: 0;
   background: url('/img/wave.png');
-  background-size: 1000px 100px;
-  height: 100px;
+  background-size: 1000px 200px;
+  height: 200px;
   width: 100%;
   animation: animateWave 4s ease-in-out infinite;
 }
@@ -131,7 +132,7 @@ section {
     transform: translateY(0px);
   }
   50% {
-    transform: translateY(10px);
+    transform: translateY(30px);
   }
 }
 
@@ -264,9 +265,9 @@ section {
   pointer-events: none;
   border-radius: 50%;
   box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5);
-  background-color: lightblue;
+  background-color: rgb(255, 255, 255);
   /* Light blue background, adjust as desired */
-  color: white;
+  color:rgb(92, 204, 238);
   font-size: 14px;
   /* Adjust based on bubble size */
   animation: float 4s ease-in-out infinite;
