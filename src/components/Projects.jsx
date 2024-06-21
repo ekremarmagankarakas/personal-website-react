@@ -99,23 +99,6 @@ function Projects() {
           }
           isEven={false}
         />
-        <Project
-          id="myModal6"
-          imgSrc="img/websitePhoto.png"
-          title="Personal Website Project"
-          description="This project involves creating a personal website to showcase academic and project work, including a dynamic homepage featuring real-time interactive elements. It serves as a portfolio, highlighting skills in web development, design, and content organization. The website also includes a contact section, enhancing communication with potential collaborators or employers. CLICK TO READ MORE"
-          modalContent={
-            <div>
-              <h1>Personal Website</h1>
-              <p>
-                Creating a website is a journey that involves several stages, from conception to execution. This particular website was crafted as a comprehensive platform to reflect a personal and professional profile. The development process commenced with the design phase, using Adobe Illustrator to create a unique and appealing visual layout. The choice of a stylized map of Boston as a background lends a personal touch, signaling the developer's connection to the city. <br /> <br />
-                The technical construction of the site involved HTML, CSS, and JavaScript, which are the building blocks of web development. HTML laid the foundational structure, CSS was employed for styling and creating a visually engaging experience, and JavaScript added interactivity and dynamic elements. These technologies were carefully woven together to ensure a seamless user experience across various devices. <br /> <br />
-                Each step in the development process was taken with careful consideration of the end goal: to create a personal website that not only showcased the developer's technical skills but also conveyed their personal story and professional journey. The final product is a testament to the developer's dedication to learning and personal growth, embodying both their expertise in web development and their creative approach to design.
-              </p>
-            </div>
-          }
-          isEven={true}
-        />
       </div>
     </section>
   );

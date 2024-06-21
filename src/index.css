@@ -95,6 +95,7 @@ section {
   left: 0;
   width: 100vw;
   height: 100vh;
+  height: 100svh;
 }
 
 .wave {
@@ -832,7 +833,7 @@ span {
 
   .project img {
     width: 100%;
-    height: 300px;
+    height: 100%;
     object-fit: cover;
   }
 
@@ -844,11 +845,6 @@ span {
 
   .project-description {
     text-align: start;
-  }
-
-  .home-text {
-    padding-top: 50px;
-    padding-right: 0;
   }
 
   .header {
@@ -878,8 +874,8 @@ span {
     margin-bottom: 0;
   }
 
-  .home-content {
-    padding-top: 0px;
+  .home-content h1 {
+    font-size: 4rem;
   }
 
   .bubble {
