@@ -464,14 +464,18 @@ span {
   background-color: #141414; /* Adjust as needed */
   border-radius: 15px;
   padding: 20px;
-  width: 300px; /* Adjust as needed */
+  max-width: 500px; /* Adjust as needed */
   text-align: center;
   color: #fff; /* White text color */
   font-family: Arial, sans-serif;
+  transition: transform 0.3s ease-in-out;
+}
+
+.website-card:hover {
+    transform: translateY(-10px);
 }
 
 .image-container {
-  background: linear-gradient(to bottom, #4827a7, #613abb);
   border-radius: 15px;
   padding: 10px;
   display: flex;

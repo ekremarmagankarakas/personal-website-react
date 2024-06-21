@@ -1,9 +1,9 @@
 import React from 'react';
 
-function WebsiteCard({ title, subtitle, description, image }) {
+function WebsiteCard({ title, subtitle, description, image, backgroundColor }) {
   return (
     <div className="website-card">
-      <div className="image-container">
+      <div className="image-container" style={{ backgroundColor }}>
         <img src={image} alt="Website" className="website-image" />
       </div>
       <div className="website-info">
