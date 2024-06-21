@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import WebsiteCard from "./WebsiteCard";
 import WebsiteImage1 from "/img/KarakaslarPC.png";
 import WebsiteImage2 from "/img/CombinedAIPC.png";
@@ -28,6 +28,30 @@ function Websites() {
       backgroundColor: "#88b04b",
     },
   ];
+
+  useEffect(() => {
+    const observerOptions = {
+      threshold: 0.05,
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("animated");
+        }
+      });
+    }, observerOptions);
+
+    const projects = document.querySelectorAll(".website-card");
+
+    projects.forEach((project) => {
+      observer.observe(project);
+    });
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
 
   return (
     <section className="websites">
