@@ -55,7 +55,7 @@ body {
 
 .navbar a {
   font-size: 1.7rem;
-  color: var(--text-color);
+  color: whitesmoke;
   font-weight: 500;
   margin-left: 3.5rem;
   transition: .3s;
@@ -84,7 +84,7 @@ section {
   display: flex;
   align-items: center;
   padding: 0 9%;
-  background-color: rgb(92, 204, 238);
+  background-color: darkslategray;
   min-height: 100svh;
 }
 
@@ -162,6 +162,7 @@ section {
   font-size: 5.6rem;
   font-weight: 700;
   line-height: 1.3;
+  color: rgb(218, 218, 218);
 }
 
 .btn-box {
@@ -271,7 +272,7 @@ section {
   box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5);
   background-color: rgb(255, 255, 255);
   /* Light blue background, adjust as desired */
-  color:rgb(92, 204, 238);
+  color:darkslategray;
   font-size: 14px;
   /* Adjust based on bubble size */
   animation: float 4s ease-in-out infinite;
