@@ -28,7 +28,7 @@ function Contact() {
           </div>
           <div className="contact-phone">
             <h3>Phone</h3>
-            <p>You can access me through one of the following phone number, however, I may not be able to answer right away. You can reach me through whatsapp.</p>
+            <p>You can contact me through the following phone number, however, I may not be able to answer right away. You can reach me through whatsapp.</p>
             <h1>+1 (857) 971-0526</h1>
           </div>
           <div className="contact-email">
@@ -38,7 +38,7 @@ function Contact() {
           </div>
           <div className="contact-address">
             <h3>Location</h3>
-            <p>I am currently located at Boston studying at Northeastern University.</p>
+            <p>I am currently located in Boston studying at Northeastern University.</p>
             <h1>Boston, MA</h1>
           </div>
         </div>

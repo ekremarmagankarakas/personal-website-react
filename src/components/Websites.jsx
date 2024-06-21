@@ -7,7 +7,7 @@ import WebsiteImage3 from "/img/KarakaslarPC.png";
 function Websites() {
   const websites = [
     {
-      title: "Pesonal Website",
+      title: "Personal Website",
       subtitle: "Responsive Web, UX/UI Design",
       description: "Expressing my own in a creative way",
       image: WebsiteImage1,
