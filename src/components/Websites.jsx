@@ -1,27 +1,27 @@
 import React from "react";
 import WebsiteCard from "./WebsiteCard";
-import WebsiteImage1 from "/img/hello.png";
-import WebsiteImage2 from "/img/hello.png";
-import WebsiteImage3 from "/img/hello.png";
+import WebsiteImage1 from "/img/KarakaslarPC.png";
+import WebsiteImage2 from "/img/CombinedAIPC.png";
+import WebsiteImage3 from "/img/KarakaslarPC.png";
 
 function Websites() {
   const websites = [
     {
-      title: "Octopus Energy",
+      title: "Pesonal Website",
       subtitle: "Responsive Web, UX/UI Design",
-      description: "Simplifying the green energy call centre experience",
+      description: "Expressing my own in a creative way",
       image: WebsiteImage1,
     },
     {
-      title: "Project 2",
-      subtitle: "Web Development, UX/UI Design",
-      description: "An innovative web application project",
+      title: "CombinedAI",
+      subtitle: "Web Development, Full-Stack",
+      description: "Revolutionizing using Large Language Models",
       image: WebsiteImage2,
     },
     {
-      title: "Project 3",
-      subtitle: "E-commerce, UX/UI Design",
-      description: "Revolutionizing the online shopping experience",
+      title: "KarakaslarGroup Management",
+      subtitle: "Web Development, Full-Stack",
+      description: "Improving management for construction companies",
       image: WebsiteImage3,
     },
   ];
