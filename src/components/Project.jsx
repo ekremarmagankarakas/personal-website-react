@@ -24,10 +24,12 @@ function Project({ id, imgSrc, title, description, modalContent, isEven }) {
 
 const openModal = (id) => {
   document.getElementById(id).style.display = "block";
+  document.documentElement.style.overflow = "hidden";
 };
 
 const closeModal = (id) => {
   document.getElementById(id).style.display = "none";
+  document.documentElement.style.overflow = "auto";
 };
 
 window.onclick = function (event) {
@@ -35,6 +37,7 @@ window.onclick = function (event) {
     for (var i = 0; i < modals.length; i++) {
         if (event.target == modals[i]) {
             modals[i].style.display = "none";
+            document.documentElement.style.overflow = "auto";
         }
     }
 }
