@@ -24,12 +24,12 @@ function Project({ id, imgSrc, title, description, modalContent, isEven }) {
 
 const openModal = (id) => {
   document.getElementById(id).style.display = "block";
-  document.documentElement.style.overflow = "hidden";
+  document.documentElement.style.overflowY = "hidden";
 };
 
 const closeModal = (id) => {
   document.getElementById(id).style.display = "none";
-  document.documentElement.style.overflow = "auto";
+  document.documentElement.style.overflowY = "auto";
 };
 
 window.onclick = function (event) {
@@ -37,7 +37,7 @@ window.onclick = function (event) {
     for (var i = 0; i < modals.length; i++) {
         if (event.target == modals[i]) {
             modals[i].style.display = "none";
-            document.documentElement.style.overflow = "auto";
+            document.documentElement.style.overflowY = "auto";
         }
     }
 }
