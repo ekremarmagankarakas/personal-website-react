@@ -40,6 +40,7 @@ function Projects() {
                       {/* Rest of the modal content */}
                     </div>
                   }
+                  isEven={false}
                 />
               </div>
               <div className="project-group java open">
@@ -54,6 +55,7 @@ function Projects() {
                       {/* Rest of the modal content */}
                     </div>
                   }
+                  isEven={true}
                 />
                 <Project
                   id="myModal3"
@@ -66,6 +68,7 @@ function Projects() {
                       {/* Rest of the modal content */}
                     </div>
                   }
+                  isEven={false}
                 />
               </div>
               <div className="project-group robotics open">
@@ -80,6 +83,7 @@ function Projects() {
                       {/* Rest of the modal content */}
                     </div>
                   }
+                  isEven={true}
                 />
               </div>
               <div className="project-group other open">
@@ -94,6 +98,7 @@ function Projects() {
                       {/* Rest of the modal content */}
                     </div>
                   }
+                  isEven={false}
                 />
               </div>
             </>
@@ -113,6 +118,7 @@ function Projects() {
                     {/* Rest of the modal content */}
                   </div>
                 }
+                isEven={false}
               />
             </div>
           )}
@@ -131,6 +137,7 @@ function Projects() {
                     {/* Rest of the modal content */}
                   </div>
                 }
+                isEven={false}
               />
               <Project
                 id="myModal3"
@@ -143,6 +150,7 @@ function Projects() {
                     {/* Rest of the modal content */}
                   </div>
                 }
+                isEven={true}
               />
             </div>
           )}
@@ -161,6 +169,7 @@ function Projects() {
                     {/* Rest of the modal content */}
                   </div>
                 }
+                isEven={false}
               />
             </div>
           )}
@@ -179,6 +188,7 @@ function Projects() {
                     {/* Rest of the modal content */}
                   </div>
                 }
+                isEven={false}
               />
             </div>
           )}

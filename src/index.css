@@ -586,6 +586,10 @@ span {
   transition: transform 0.3s ease-in-out;
 }
 
+.project.even {
+  flex-direction: row-reverse;
+}
+
 .project:hover {
   transform: translateY(-10px);
 }
