@@ -514,12 +514,37 @@ span {
   background-color: var(--second-bg-color);
 }
 
+.projects-intro {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.project-group-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 60px;
+}
+
+.project-group-thumbnail {
+  width: 150px;
+  height: 120px;
+  cursor: pointer;
+}
+
+.project-group > div {
+  display: none;
+}
+
+.project-group.open > div {
+  display: block;
+}
+
 .projects-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 60px;
 }
 
 .project {
@@ -530,32 +555,9 @@ span {
   margin-bottom: 10px;
   gap: 80px;
   transition: transform 0.3s ease-in-out;
-  transform: translateX(-40px);
-  opacity: 0;
-}
-
-.project.animated {
-  opacity: 1;
-  transform: translateX(0);
-  transition: all 1s ease-in-out;
 }
 
 .project:hover {
-  transform: translateY(-10px);
-}
-
-.project.even {
-  flex-direction: row-reverse;
-  transform: translateX(40px);
-}
-
-.project.even.animated {
-  opacity: 1;
-  transform: translateX(0);
-  transition: all 1s ease-in-out;
-}
-
-.project.even:hover {
   transform: translateY(-10px);
 }
 
