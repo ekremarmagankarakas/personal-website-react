@@ -526,10 +526,37 @@ span {
   margin-bottom: 60px;
 }
 
-.project-group-thumbnail {
-  width: 150px;
-  height: 120px;
+.project-group-buttons button {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
   cursor: pointer;
+  border-radius: 10px;
+}
+
+#all-projects {
+  background-color: var(--main-color);
+  color: white;
+}
+
+#java-projects {
+  background-color: #00796b;
+  color: white;
+}
+
+#python-projects {
+  background-color: #ff6f00;
+  color: white;
+}
+
+#robotics-projects {
+  background-color: #d32f2f;
+  color: white;
+}
+
+#other-projects {
+  background-color: #5d4037;
+  color: white;
 }
 
 .project-group > div {
