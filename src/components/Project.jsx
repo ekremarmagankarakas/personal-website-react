@@ -22,6 +22,7 @@ function Project({ id, imgSrc, title, description, modalContent, isEven }) {
   );
 }
 
+/*
 const openModal = (id) => {
   document.getElementById(id).style.display = "block";
   document.documentElement.style.overflowY = "hidden";
@@ -41,5 +42,6 @@ window.onclick = function (event) {
         }
     }
 }
+*/
 
 export default Project;

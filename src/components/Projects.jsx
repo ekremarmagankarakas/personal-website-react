@@ -42,6 +42,32 @@ function Projects() {
                   }
                   isEven={false}
                 />
+                <Project
+                  id="myModal6"
+                  imgSrc="img/diabetes.png"
+                  title="Diabetes Prediction Model"
+                  description="This project involves analyzing a diabetes dataset to predict the presence of diabetes in patients using various statistical and machine learning techniques. The dataset contains information on pregnancies, glucose levels, blood pressure, skin thickness, insulin levels, BMI, diabetes pedigree function, age, and the outcome (presence or absence of diabetes). Despite achieving a reasonable level of accuracy, the model's limitations underscore the need for more sophisticated techniques or additional data to improve performance in a real-world medical setting. CLICK TO READ MORE"
+                  modalContent={
+                    <div>
+                      <h1>Diabetes Prediction Model</h1> 
+                      {/* Rest of the modal content */}
+                    </div>
+                  }
+                  isEven={true}
+                />
+                <Project
+                  id="myModal7"
+                  imgSrc="img/taxiTip.png"
+                  title="Green Taxi Trip Analysis with Random Forest Model"
+                  description="This project involves analyzing a dataset of green taxi trips in New York City, focusing on predicting the tip amount using a variety of features such as vendor ID, pickup and drop-off locations, trip distance, fare amount, and other related attributes. The dataset is sourced from the NYC Taxi & Limousine Commission and is provided in a Parquet format. The Random Forest model shows moderate success, with potential for further improvement through additional tuning or feature engineering.  CLICK TO READ MORE"
+                  modalContent={
+                    <div>
+                      <h1>Green Taxi Trip Analysis with Random Forest Model</h1> 
+                      {/* Rest of the modal content */}
+                    </div>
+                  }
+                  isEven={false}
+                />
               </div>
               <div className="project-group java open">
                 <Project
@@ -65,6 +91,19 @@ function Projects() {
                   modalContent={
                     <div>
                       <h1>Karakaslar Group App</h1>
+                      {/* Rest of the modal content */}
+                    </div>
+                  }
+                  isEven={false}
+                />
+                <Project
+                  id="myModal8"
+                  imgSrc="img/Klondike.png"
+                  title="Klondike Solitaire Game Implementation"
+                  description="This project involves creating a console-based version of the popular Klondike solitaire game, allowing users to play different variants of the game. The main components of the project include a controller for managing user input and game flow, models representing the game logic and states, and a flexible setup for launching the game with various configurations. By leveraging OOP, the Factory pattern, MVC architecture, and robust exception handling, the project ensures a maintainable and scalable codebase. CLICK TO READ MORE"
+                  modalContent={
+                    <div>
+                      <h1>Klondike Solitaire Game Implementation</h1>
                       {/* Rest of the modal content */}
                     </div>
                   }
@@ -120,6 +159,32 @@ function Projects() {
                 }
                 isEven={false}
               />
+              <Project
+                id="myModal6"
+                imgSrc="img/diabetes.png"
+                title="Diabetes Prediction Model"
+                description="This project involves analyzing a diabetes dataset to predict the presence of diabetes in patients using various statistical and machine learning techniques. The dataset contains information on pregnancies, glucose levels, blood pressure, skin thickness, insulin levels, BMI, diabetes pedigree function, age, and the outcome (presence or absence of diabetes). Despite achieving a reasonable level of accuracy, the model's limitations underscore the need for more sophisticated techniques or additional data to improve performance in a real-world medical setting. CLICK TO READ MORE"
+                modalContent={
+                  <div>
+                    <h1>Diabetes Prediction Model</h1> 
+                    {/* Rest of the modal content */}
+                  </div>
+                }
+                isEven={true}
+              />
+              <Project
+                id="myModal7"
+                imgSrc="img/taxiTip.png"
+                title="Green Taxi Trip Analysis with Random Forest Model"
+                description="This project involves analyzing a dataset of green taxi trips in New York City, focusing on predicting the tip amount using a variety of features such as vendor ID, pickup and drop-off locations, trip distance, fare amount, and other related attributes. The dataset is sourced from the NYC Taxi & Limousine Commission and is provided in a Parquet format. The Random Forest model shows moderate success, with potential for further improvement through additional tuning or feature engineering.  CLICK TO READ MORE"
+                modalContent={
+                  <div>
+                    <h1>Green Taxi Trip Analysis with Random Forest Model</h1> 
+                    {/* Rest of the modal content */}
+                  </div>
+                }
+                isEven={false}
+              />
             </div>
           )}
         </div>
@@ -152,6 +217,19 @@ function Projects() {
                 }
                 isEven={true}
               />
+              <Project
+                  id="myModal8"
+                  imgSrc="img/Klondike.png"
+                  title="Klondike Solitaire Game Implementation"
+                  description="This project involves creating a console-based version of the popular Klondike solitaire game, allowing users to play different variants of the game. The main components of the project include a controller for managing user input and game flow, models representing the game logic and states, and a flexible setup for launching the game with various configurations. By leveraging OOP, the Factory pattern, MVC architecture, and robust exception handling, the project ensures a maintainable and scalable codebase. CLICK TO READ MORE"
+                  modalContent={
+                    <div>
+                      <h1>Klondike Solitaire Game Implementation</h1>
+                      {/* Rest of the modal content */}
+                    </div>
+                  }
+                  isEven={false}
+                />
             </div>
           )}
         </div>
