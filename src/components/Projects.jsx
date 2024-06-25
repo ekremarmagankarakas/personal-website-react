@@ -68,6 +68,45 @@ function Projects() {
                   }
                   isEven={false}
                 />
+                <Project
+                  id="myModal9"
+                  imgSrc="img/meatConsumption.png"
+                  title="Meat Consumption Analysis and Prediction"
+                  description="This project involves analyzing historical meat consumption data for different countries and making predictions for future consumption using linear regression. The data is sourced from the OECD, focusing on various types of meat consumption across different years and regions. CLICK TO READ MORE"
+                  modalContent={
+                    <div>
+                      <h1>Meat Consumption Analysis and Prediction</h1> 
+                      {/* Rest of the modal content */}
+                    </div>
+                  }
+                  isEven={true}
+                />
+                <Project
+                  id="myModal10"
+                  imgSrc="img/RR.png"
+                  title="Screen Refresh Rate Switcher"
+                  description="This project involves creating a system tray application for Windows that allows users to switch the screen refresh rate between predefined values (360Hz and 60Hz) quickly and conveniently. The application is built using Python with the pystray, pywintypes, and win32api libraries, along with the PIL library for handling the tray icon. CLICK TO READ MORE"
+                  modalContent={
+                    <div>
+                      <h1>Screen Refresh Rate Switcher</h1> 
+                      {/* Rest of the modal content */}
+                    </div>
+                  }
+                  isEven={false}
+                />
+                <Project
+                  id="myModal11"
+                  imgSrc="img/spaceship.png"
+                  title="PVP Shooter Game"
+                  description="This project is a Player vs. Player (PVP) shooter game developed using Python and the Pygame library. The game allows two players to control their respective ships, shoot bullets, and compete against each other. The goal is to deplete the opponent's shield by hitting them with bullets until one player's shield reaches zero. CLICK TO READ MORE"
+                  modalContent={
+                    <div>
+                      <h1>PVP Shooter Game</h1> 
+                      {/* Rest of the modal content */}
+                    </div>
+                  }
+                  isEven={true}
+                />
               </div>
               <div className="project-group java open">
                 <Project
@@ -81,7 +120,7 @@ function Projects() {
                       {/* Rest of the modal content */}
                     </div>
                   }
-                  isEven={true}
+                  isEven={false}
                 />
                 <Project
                   id="myModal3"
@@ -94,7 +133,7 @@ function Projects() {
                       {/* Rest of the modal content */}
                     </div>
                   }
-                  isEven={false}
+                  isEven={true}
                 />
                 <Project
                   id="myModal8"
@@ -176,7 +215,7 @@ function Projects() {
                 id="myModal7"
                 imgSrc="img/taxiTip.png"
                 title="Green Taxi Trip Analysis with Random Forest Model"
-                description="This project involves analyzing a dataset of green taxi trips in New York City, focusing on predicting the tip amount using a variety of features such as vendor ID, pickup and drop-off locations, trip distance, fare amount, and other related attributes. The dataset is sourced from the NYC Taxi & Limousine Commission and is provided in a Parquet format. The Random Forest model shows moderate success, with potential for further improvement through additional tuning or feature engineering.  CLICK TO READ MORE"
+                description="This project involves analyzing a dataset of green taxi trips in New York City, focusing on predicting the tip amount using a variety of features such as vendor ID, pickup and drop-off locations, trip distance, fare amount, and other related attributes. The dataset is sourced from the NYC Taxi & Limousine Commission and is provided in a Parquet format. The Random Forest model shows moderate success, with potential for further improvement through additional tuning or feature engineering. CLICK TO READ MORE"
                 modalContent={
                   <div>
                     <h1>Green Taxi Trip Analysis with Random Forest Model</h1> 
@@ -184,6 +223,45 @@ function Projects() {
                   </div>
                 }
                 isEven={false}
+              />
+              <Project
+                id="myModal9"
+                imgSrc="img/meatConsumption.png"
+                title="Meat Consumption Analysis and Prediction"
+                description="This project involves analyzing historical meat consumption data for different countries and making predictions for future consumption using linear regression. The data is sourced from the OECD, focusing on various types of meat consumption across different years and regions. CLICK TO READ MORE"
+                modalContent={
+                  <div>
+                    <h1>Meat Consumption Analysis and Prediction</h1> 
+                    {/* Rest of the modal content */}
+                  </div>
+                }
+                isEven={true}
+              />
+              <Project
+                id="myModal10"
+                imgSrc="img/RR.png"
+                title="Screen Refresh Rate Switcher"
+                description="This project involves creating a system tray application for Windows that allows users to switch the screen refresh rate between predefined values (360Hz and 60Hz) quickly and conveniently. The application is built using Python with the pystray, pywintypes, and win32api libraries, along with the PIL library for handling the tray icon. CLICK TO READ MORE"
+                modalContent={
+                  <div>
+                    <h1>Screen Refresh Rate Switcher</h1> 
+                    {/* Rest of the modal content */}
+                  </div>
+                }
+                isEven={false}
+              />
+              <Project
+                id="myModal11"
+                imgSrc="img/spaceship.png"
+                title="PVP Shooter Game"
+                description="This project is a Player vs. Player (PVP) shooter game developed using Python and the Pygame library. The game allows two players to control their respective ships, shoot bullets, and compete against each other. The goal is to deplete the opponent's shield by hitting them with bullets until one player's shield reaches zero. CLICK TO READ MORE"
+                modalContent={
+                  <div>
+                    <h1>PVP Shooter Game</h1> 
+                    {/* Rest of the modal content */}
+                  </div>
+                }
+                isEven={true}
               />
             </div>
           )}
