@@ -569,6 +569,24 @@ span {
   display: block;
 }
 
+.project-group {
+  display: none;
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+.project-group.open {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .projects-container {
   display: flex;
   justify-content: center;
