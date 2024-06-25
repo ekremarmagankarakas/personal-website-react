@@ -563,18 +563,10 @@ span {
 
 .project-group > div {
   display: none;
-}
-
-.project-group.open > div {
-  display: block;
-}
-
-.project-group {
-  display: none;
   animation: fadeIn 0.5s ease-in-out forwards;
 }
 
-.project-group.open {
+.project-group.open > div {
   display: block;
 }
 
