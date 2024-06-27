@@ -18,14 +18,11 @@ function Home() {
         "ReactJS",
         "PHP",
         "Arduino",
-        "Raspberry-Pi",
         "Git",
         "MongoDB",
         "MariaDB",
         "MySQL",
-        "HeidiSQL",
         "VMware",
-        "VirtualBox",
       ];
       const skill = skills[Math.floor(Math.random() * skills.length)];
       const createElement = document.createElement("span");
@@ -49,7 +46,7 @@ function Home() {
       }, 4000);
     };
 
-    const bubbleInterval = setInterval(createBubble, 1000);
+    const bubbleInterval = setInterval(createBubble, 2000);
 
     const wave1 = document.getElementById('wave1');
     const wave2 = document.getElementById('wave2');
