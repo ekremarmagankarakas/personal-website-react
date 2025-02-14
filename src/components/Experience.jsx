@@ -5,7 +5,7 @@ const experienceData = [
     year: "July – Dec. 2024",
     position: "IT Desk Co-op - Unifirst",
     description:
-      "Provided technical support and troubleshooting assistance to customers, resolving hardware, software, and network issues to ensure seamless business operations.",
+      "Designed and developed the IT Quick Links application, a Windows-based utility streamlining access to IT resources, tools, and scripts, leveraging PowerShell and WPF for UI development.",
   },
   {
     year: "Sept - Dec 2023",
